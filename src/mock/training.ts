@@ -1,0 +1,58 @@
+import type { TrainingCourse } from '@/types/domain';
+
+export const trainingCourses: TrainingCourse[] = [
+  {
+    id: 'training-1',
+    title: '数据出境合规路径入门',
+    category: '基础课程',
+    duration: '45 分钟',
+    level: '初级',
+    summary: '用于展示平台培训课程卡片、课程详情和资料下载入口。',
+    downloads: ['课件 PDF', '场景清单模板'],
+  },
+  {
+    id: 'training-2',
+    title: '标准合同备案材料实务',
+    category: '实务课程',
+    duration: '60 分钟',
+    level: '中级',
+    summary: '围绕标准合同路径判断、材料目录和常见缺陷进行演示。',
+    downloads: ['备案目录模板', '检查清单'],
+  },
+  {
+    id: 'training-3',
+    title: '重要数据辅助识别方法',
+    category: '专题课程',
+    duration: '50 分钟',
+    level: '中级',
+    summary: '用于演示分类分级、重要数据识别和人工复核提示。',
+    downloads: ['识别规则样例'],
+  },
+  {
+    id: 'training-4',
+    title: 'PIA 与风险评估问卷设计',
+    category: '专题课程',
+    duration: '55 分钟',
+    level: '中级',
+    summary: '展示风险矩阵、雷达图和个人信息保护影响评估的建模思路。',
+    downloads: ['问卷模板', '评分说明'],
+  },
+  {
+    id: 'training-5',
+    title: '跨境链路安全与监测',
+    category: '技术课程',
+    duration: '40 分钟',
+    level: '初级',
+    summary: '用于展示安全流通、审计日志和链路监测类页面。',
+    downloads: ['链路巡检表'],
+  },
+  {
+    id: 'training-6',
+    title: '行业场景工作坊',
+    category: '进阶课程',
+    duration: '75 分钟',
+    level: '高级',
+    summary: '通过汽车、医药、互联网三个场景演练平台核心交互。',
+    downloads: ['案例手册', '演示脚本'],
+  },
+];
