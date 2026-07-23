@@ -47,7 +47,7 @@ const regulationSeeds = [
     publishDate: '2021-08-20',
     effectiveDate: '2021-11-01',
     topics: ['个人信息出境', '处理规则'],
-    industries: ['互联网', '金融', '制造'],
+    industries: ['汽车', '汽车研发', '车联网'],
     summary: '中国个人信息处理与出境合规的核心法律基础。',
   },
   {
@@ -61,7 +61,7 @@ const regulationSeeds = [
     publishDate: '2021-06-10',
     effectiveDate: '2021-09-01',
     topics: ['数据分类分级', '安全治理'],
-    industries: ['制造', '医药', '政务'],
+    industries: ['汽车', '工业制造', '汽车供应链'],
     summary: '覆盖数据分类分级、风险监测和安全治理要求。',
   },
   {
@@ -75,7 +75,7 @@ const regulationSeeds = [
     publishDate: '2022-07-07',
     effectiveDate: '2022-09-01',
     topics: ['安全评估', '申报备案'],
-    industries: ['汽车', '金融', '互联网'],
+    industries: ['汽车', '汽车研发', '车联网'],
     summary: '定义特定场景下数据出境安全评估的适用条件和材料要求。',
   },
   {
@@ -89,7 +89,7 @@ const regulationSeeds = [
     publishDate: '2023-02-22',
     effectiveDate: '2023-06-01',
     topics: ['标准合同', '个人信息出境'],
-    industries: ['互联网', '服务业'],
+    industries: ['汽车', '汽车研发', '售后服务'],
     summary: '用于展示标准合同路径的条件判断和材料准备。',
   },
   {
@@ -103,7 +103,7 @@ const regulationSeeds = [
     publishDate: '2024-03-22',
     effectiveDate: '2024-03-22',
     topics: ['数据跨境流动', '豁免情形'],
-    industries: ['汽车', '工业制造', '服务业'],
+    industries: ['汽车', '工业制造', 'OTA 软件升级'],
     summary: '对数据出境安全评估、标准合同、认证适用条件和豁免情形作出进一步优化。',
   },
   {
@@ -117,7 +117,7 @@ const regulationSeeds = [
     publishDate: '2024-09-24',
     effectiveDate: '2025-01-01',
     topics: ['网络数据治理', '出境管理'],
-    industries: ['互联网', '工业制造'],
+    industries: ['车联网', '汽车制造'],
     summary: '为网络数据处理和出境管理提供统一的监管框架。',
   },
   {
@@ -159,7 +159,7 @@ const regulationSeeds = [
     publishDate: '2016-04-27',
     effectiveDate: '2018-05-25',
     topics: ['个人数据', '跨境传输'],
-    industries: ['互联网', '零售', '医药'],
+    industries: ['汽车', '汽车研发', '车联网'],
     summary: '欧盟个人数据保护与跨境传输的通用规则。',
   },
   {
@@ -187,7 +187,7 @@ const regulationSeeds = [
     publishDate: '2022-05-30',
     effectiveDate: '2023-09-24',
     topics: ['数据治理', '中介服务'],
-    industries: ['公共服务', '工业制造'],
+    industries: ['汽车供应链', '工业制造'],
     summary: '支持可信数据共享和数据中介服务监管。',
   },
   {
@@ -201,7 +201,7 @@ const regulationSeeds = [
     publishDate: '2017-06-30',
     effectiveDate: '2018-05-25',
     topics: ['个人数据', '雇员数据'],
-    industries: ['汽车', '制造', '服务业'],
+    industries: ['汽车', '汽车制造', '汽车供应链'],
     summary: '德国对 GDPR 的本地配套和特殊领域补充规则。',
   },
   {
@@ -215,7 +215,7 @@ const regulationSeeds = [
     publishDate: '2021-06-23',
     effectiveDate: '2021-12-01',
     topics: ['终端数据', '通信服务'],
-    industries: ['互联网', '通信'],
+    industries: ['车联网', 'OTA 软件升级'],
     summary: '围绕通信和在线服务场景的数据保护义务。',
   },
   {
@@ -229,7 +229,7 @@ const regulationSeeds = [
     publishDate: '2012-10-15',
     effectiveDate: '2014-07-02',
     topics: ['个人数据', '跨境传输'],
-    industries: ['服务业', '互联网', '金融'],
+    industries: ['汽车', '道路测试', '汽车研发'],
     summary: '新加坡个人数据保护和跨境传输的基础制度。',
   },
   {
@@ -243,7 +243,7 @@ const regulationSeeds = [
     publishDate: '2018-03-05',
     effectiveDate: '2018-08-31',
     topics: ['网络安全', '关键基础设施'],
-    industries: ['公共服务', '金融', '工业制造'],
+    industries: ['车联网', '汽车制造', '工业制造'],
     summary: '围绕关键系统和网络安全治理的基础规则。',
   },
   {
@@ -257,7 +257,7 @@ const regulationSeeds = [
     publishDate: '2003-05-30',
     effectiveDate: '2005-04-01',
     topics: ['个人信息', '第三方提供'],
-    industries: ['互联网', '医药', '制造'],
+    industries: ['汽车', 'OTA 软件升级', '汽车制造'],
     summary: '日本个人信息保护和第三方提供规则的基础法律。',
   },
   {
@@ -271,7 +271,7 @@ const regulationSeeds = [
     publishDate: '2022-03-31',
     effectiveDate: '2022-04-01',
     topics: ['跨境传输', '同意机制'],
-    industries: ['互联网', '服务业'],
+    industries: ['汽车', '售后服务'],
     summary: '细化个人信息向境外第三方提供时的信息披露与管理要求。',
   },
   {
@@ -285,7 +285,7 @@ const regulationSeeds = [
     publishDate: '1995-08-03',
     effectiveDate: '1996-12-20',
     topics: ['个人资料', '直接营销'],
-    industries: ['金融', '零售', '互联网'],
+    industries: ['汽车', '智能驾驶', '车联网'],
     summary: '中国香港关于个人资料处理与保护的基础制度。',
   },
   {
@@ -299,7 +299,7 @@ const regulationSeeds = [
     publishDate: '2021-04-01',
     effectiveDate: '2021-04-01',
     topics: ['数据安全', '系统防护'],
-    industries: ['公共服务', '金融', '互联网'],
+    industries: ['车联网', '智能驾驶', 'OTA 软件升级'],
     summary: '用于展示香港场景下系统和数据安全措施要求。',
   },
   {
@@ -313,7 +313,7 @@ const regulationSeeds = [
     publishDate: '2021-12-17',
     effectiveDate: '2022-05-01',
     topics: ['个人数据', '处理原则'],
-    industries: ['公共服务', '互联网'],
+    industries: ['汽车', '汽车供应链'],
     summary: '蒙古个人数据保护和处理原则的基础法律。',
   },
   {
@@ -327,7 +327,7 @@ const regulationSeeds = [
     publishDate: '2021-12-17',
     effectiveDate: '2022-05-01',
     topics: ['网络安全', '风险监测'],
-    industries: ['公共服务', '工业制造'],
+    industries: ['汽车制造', '工业制造'],
     summary: '用于展示蒙古在网络安全和风险监测方面的要求。',
   },
   {
@@ -341,7 +341,7 @@ const regulationSeeds = [
     publishDate: '2024-07-12',
     effectiveDate: '2026-08-02',
     topics: ['AI治理', '高风险系统'],
-    industries: ['汽车', '医药', '金融'],
+    industries: ['汽车', '智能驾驶', '汽车研发'],
     summary: '补充展示高风险算法和数据治理相关合规要求。',
   },
   {
@@ -355,7 +355,7 @@ const regulationSeeds = [
     publishDate: '2020-01-21',
     effectiveDate: '2020-01-21',
     topics: ['AI治理', '数据责任'],
-    industries: ['互联网', '金融', '公共服务'],
+    industries: ['智能驾驶', '汽车研发', '车联网'],
     summary: '用于补充展示数据责任和治理框架类材料。',
   },
 ] satisfies Array<

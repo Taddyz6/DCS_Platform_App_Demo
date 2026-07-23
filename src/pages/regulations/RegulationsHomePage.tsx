@@ -168,7 +168,7 @@ export function RegulationsHomePage() {
         <Col xs={24} xl={8}>
           <ModuleCard
             title="地方负面清单"
-            description="围绕各地自贸区、服务业开放试点和地方特色产业，展示已发布的数据出境负面清单。"
+            description="围绕各地汽车产业与自贸区试点，展示研发、制造、车联网和软件升级相关的数据出境负面清单。"
             icon={<span className="feature-dot" />}
             meta="地方层面 / 自贸区 / 便利化"
             actionLabel="查看地方清单"

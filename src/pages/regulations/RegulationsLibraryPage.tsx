@@ -152,7 +152,7 @@ export function RegulationsLibraryPage() {
             title="覆盖行业"
             value={regulationIndustries.length}
             suffix="类"
-            description="包含互联网、汽车、医药、制造、金融等重点行业。"
+            description="包含汽车研发、工业制造、智能驾驶、车联网和 OTA 等重点领域。"
           />
         </Col>
       </Row>
