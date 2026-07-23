@@ -19,13 +19,13 @@ interface QaMessage {
 const buildAnswer = (question: string) => {
   const normalized = question.toLowerCase();
 
-  if (normalized.includes('新加坡') || normalized.includes('员工')) {
+  if (normalized.includes('新加坡') || normalized.includes('道路测试')) {
     const profile = getCountryProfileByName('新加坡');
     const regulation = regulations.find((item) => item.id === 'reg-sg-pdpa');
 
     return {
       content:
-        '该场景通常需要先识别是否包含个人信息，再说明接收方保护水平、合同安排和内部责任边界。对于中国出境方，还应先判断是否适用安全评估或标准合同路径。',
+        '道路测试数据出境通常需要先识别车辆轨迹、环境感知和驾驶员相关信息的属性，再说明新加坡研发中心的保护水平、合同安排和内部责任边界。对于中国出境方，还应判断是否适用安全评估或标准合同路径。',
       citations: [
         {
           title: regulation?.title ?? 'Personal Data Protection Act',

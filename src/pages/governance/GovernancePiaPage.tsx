@@ -78,7 +78,7 @@ export function GovernancePiaPage() {
                 name="processingPurpose"
                 rules={[{ required: true, message: '请输入处理目的' }]}
               >
-                <Input placeholder="例如：全球客服、联合研发、运维监测或集团人力协同。" />
+                <Input placeholder="例如：联合研发、道路测试分析、OTA 运维监测或零部件质量协同。" />
               </Form.Item>
             </Col>
           </Row>

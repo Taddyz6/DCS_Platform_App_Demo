@@ -115,8 +115,8 @@ export const countryProfiles: CountryProfile[] = [
         answer: '可通过合同和内部治理安排控制风险，重点关注个人资料私隐原则。',
       },
       {
-        question: '客户服务数据有哪些常见风险？',
-        answer: '身份识别信息、沟通记录和服务偏好都需要明确处理目的和授权边界。',
+        question: '车辆售后服务数据有哪些常见风险？',
+        answer: '车辆标识、故障记录、维修工单和用户联络信息需要明确处理目的、访问范围和授权边界。',
       },
     ],
     keyRegulationIds: ['reg-hk-pdpo', 'reg-hk-cyber'],
