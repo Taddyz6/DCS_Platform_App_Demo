@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { resolve, relative } from 'node:path';
 
 const root = process.cwd();
@@ -20,6 +20,10 @@ const failures = [];
 
 function collectFiles(target) {
   const absoluteTarget = resolve(root, target);
+
+  if (!existsSync(absoluteTarget)) {
+    return [];
+  }
 
   if (!statSync(absoluteTarget).isDirectory()) {
     return [absoluteTarget];
