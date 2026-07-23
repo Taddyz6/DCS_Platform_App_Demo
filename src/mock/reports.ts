@@ -77,6 +77,16 @@ const automotiveReports: AutomotiveReportSeed[] = [
     action: '建议建立实时告警、流量基线、境外节点健康检查和事件闭环处置机制。',
     status: 'draft',
   },
+  {
+    id: 'report-after-sales-quality',
+    name: '车辆售后诊断与质量改进合规报告',
+    type: '售后诊断',
+    summary: '评估车辆故障码、远程诊断日志、维修反馈与质量改进数据的跨境处理边界。',
+    scope: '覆盖车辆故障码、诊断会话日志、维修工单、缺陷分析及质量闭环记录。',
+    conclusion: '售后诊断数据应区分车辆技术信息、用户关联信息与质量缺陷数据，并限制境外质量团队的访问范围。',
+    action: '建议对车辆标识进行最小化处理，建立维修数据权限矩阵、问题闭环记录和境外访问审计。',
+    status: 'generated',
+  },
 ];
 
 export const reports: Report[] = automotiveReports.map((report, index) => ({

@@ -159,7 +159,7 @@ export const routeCatalog: AppRouteMeta[] = [
     path: '/reports',
     title: '报告中心',
     breadcrumb: '报告中心',
-    description: '集中查看研发设计、生产制造、自动驾驶、软件升级和联网运行报告。',
+    description: '集中查看研发设计、生产制造、自动驾驶、软件升级、联网运行和售后诊断报告。',
     sectionKey: 'reports',
     sectionLabel: '报告中心',
     activeMenuKey: 'reports',

@@ -200,7 +200,7 @@ const regulationSeeds = [
     status: 'effective' as const,
     publishDate: '2017-06-30',
     effectiveDate: '2018-05-25',
-    topics: ['个人数据', '雇员数据'],
+    topics: ['个人数据', '汽车研发数据'],
     industries: ['汽车', '汽车制造', '汽车供应链'],
     summary: '德国对 GDPR 的本地配套和特殊领域补充规则。',
   },

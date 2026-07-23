@@ -151,7 +151,7 @@ export const homeFlowNodes: HomeFlowNode[] = [
   },
   {
     id: 'singapore',
-    name: '新加坡合规节点',
+    name: '新加坡道路测试分析中心',
     markerLabel: 'SG·新加坡',
     role: 'destination',
     x: 824,

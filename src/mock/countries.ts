@@ -47,12 +47,12 @@ export const countryProfiles: CountryProfile[] = [
     region: '欧洲',
     regulatoryAuthorities: ['Federal Commissioner for Data Protection', '州级数据保护机构'],
     crossBorderMechanisms: ['GDPR 工具体系', '行业协议安排'],
-    localizationRequirements: ['重点关注雇员数据', '重点关注工业和汽车数据治理边界'],
-    keyRisks: ['雇员数据处理依据不足', '工业数据边界定义模糊'],
+    localizationRequirements: ['重点关注汽车研发数据访问边界', '重点关注工业和汽车数据治理边界'],
+    keyRisks: ['跨国研发访问权限过宽', '工业数据边界定义模糊'],
     faqs: [
       {
-        question: '雇员数据是否有特殊要求？',
-        answer: '德国对雇员数据处理较为敏感，需特别说明目的、必要性和安全措施。',
+        question: '汽车研发数据有哪些特殊要求？',
+        answer: '德国汽车研发协同需明确车型参数、测试日志和工程数据的处理目的、访问范围与安全措施。',
       },
       {
         question: '汽车行业有哪些高关注点？',

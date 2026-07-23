@@ -8,6 +8,7 @@ const reportCitationMap: Record<string, string[]> = {
   自动驾驶: ['reg-cn-auto-guide-2026', 'reg-cn-security-assessment', 'reg-cn-dsl'],
   软件升级: ['reg-cn-auto-guide-2026', 'reg-cn-dsl', 'reg-cn-data-flow'],
   联网运行: ['reg-cn-auto-guide-2026', 'reg-cn-dsl', 'reg-cn-security-assessment'],
+  售后诊断: ['reg-cn-auto-guide-2026', 'reg-cn-dsl', 'reg-cn-data-flow'],
 };
 
 export function getReportById(id?: string) {
