@@ -6,6 +6,7 @@
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
+    "check:content": "node scripts/check-automotive-content.mjs",
     "typecheck:web": "tsc --noEmit -p tsconfig.json",
     "typecheck:electron": "tsc --noEmit -p electron/tsconfig.json",
     "typecheck": "npm-run-all typecheck:web typecheck:electron",

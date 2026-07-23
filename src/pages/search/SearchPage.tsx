@@ -13,6 +13,7 @@ import {
   reports,
   scenarios,
   serviceProviders,
+  trainingCourses,
 } from '@/mock';
 
 type SearchScope =
@@ -23,7 +24,8 @@ type SearchScope =
   | 'assets'
   | 'materials'
   | 'reports'
-  | 'providers';
+  | 'providers'
+  | 'training';
 
 interface SearchResultItem {
   id: string;
@@ -48,6 +50,7 @@ const searchSections: SearchSection[] = [
   { key: 'materials', label: '备案材料', description: '材料状态、完整性与问题提示。' },
   { key: 'reports', label: '报告中心', description: '报告预览与导出入口。' },
   { key: 'providers', label: '服务机构', description: '机构类型、行业与区域覆盖。' },
+  { key: 'training', label: '培训课程', description: '汽车数据课程与场景工作坊。' },
 ];
 
 const createResults = (): SearchResultItem[] => [
@@ -106,6 +109,14 @@ const createResults = (): SearchResultItem[] => [
     meta: [item.type, item.regions.join(' / '), item.tags.join(' / ')],
     category: 'providers' as const,
     path: '/services/providers',
+  })),
+  ...trainingCourses.map((item) => ({
+    id: item.id,
+    title: item.title,
+    description: item.summary,
+    meta: [item.category, item.level, item.duration],
+    category: 'training' as const,
+    path: '/services/training',
   })),
 ];
 

@@ -79,8 +79,8 @@ const filingTypeCitationMap: Record<FilingType, string[]> = {
 
 const filingDefaultScenarioMap: Record<FilingType, string> = {
   securityAssessment: 'scenario-auto-de',
-  standardContract: 'scenario-hr-sg',
-  certification: 'scenario-service-hk',
+  standardContract: 'scenario-auto-test-sg',
+  certification: 'scenario-auto-driving-hk',
 };
 
 const filingChecklistMap: Record<FilingType, string[]> = {
@@ -334,7 +334,7 @@ export function getFilingOverview(records: FilingRecord[], localMaterials: Mater
 
 export function getFilingHomeReports() {
   return reports
-    .filter((report) => ['研判报告', 'PIA 报告'].includes(report.type))
+    .filter((report) => ['研发设计', '软件升级', '售后诊断'].includes(report.type))
     .slice(0, 3);
 }
 

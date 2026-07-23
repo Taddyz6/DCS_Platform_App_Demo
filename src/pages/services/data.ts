@@ -86,20 +86,20 @@ export function buildConsultationSeed(): ConsultationRecord[] {
   return [
     {
       id: 'consultation-seed-1',
-      title: '欧盟研发数据场景法规研判咨询',
+      title: '德国整车研发数据法规研判咨询',
       category: '法规研判',
       providerId: serviceProviders[0]?.id,
       status: 'review',
-      question: '需要确认欧盟合作研发场景下的重要数据边界和接收方约束安排。',
+      question: '需要确认德国整车研发协同中的车型参数、测试日志和接收方访问边界。',
       createdAt: dayjs().subtract(2, 'day').format('YYYY-MM-DD HH:mm:ss'),
     },
     {
       id: 'consultation-seed-2',
-      title: '标准合同备案材料复核咨询',
+      title: '道路测试标准合同材料复核咨询',
       category: '申报备案',
       providerId: serviceProviders[2]?.id,
       status: 'completed',
-      question: '需要复核字段清单、联系人说明和合同附件命名规则。',
+      question: '需要复核道路测试字段清单、接收方联系人和合同附件命名规则。',
       createdAt: dayjs().subtract(1, 'day').format('YYYY-MM-DD HH:mm:ss'),
     },
   ];
@@ -113,7 +113,7 @@ export function buildApplicationSeed(): ServiceApplicationRecord[] {
       providerId: serviceProviders[4]?.id,
       contactName: '平台项目负责人',
       status: 'review',
-      summary: '申请跨境链路加密、网关和日志审计方案评估支持。',
+      summary: '申请车联网与 OTA 运维链路的加密、网关和日志审计方案评估支持。',
       createdAt: dayjs().subtract(18, 'hour').format('YYYY-MM-DD HH:mm:ss'),
     },
     {
@@ -122,7 +122,7 @@ export function buildApplicationSeed(): ServiceApplicationRecord[] {
       providerId: serviceProviders[1]?.id,
       contactName: '平台项目负责人',
       status: 'pending',
-      summary: '申请面向业务和法务团队的跨境合规场景工作坊。',
+      summary: '申请面向研发、法务和质量团队的汽车全生命周期合规工作坊。',
       createdAt: dayjs().subtract(10, 'hour').format('YYYY-MM-DD HH:mm:ss'),
     },
   ];

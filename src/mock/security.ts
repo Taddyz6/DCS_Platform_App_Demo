@@ -22,7 +22,7 @@ export const securityEvents: SecurityEvent[] = [
     type: '传输加密策略变更',
     result: '已拦截',
     riskLevel: 'high',
-    summary: '检测到研发链路加密套件变更，已触发人工复核。',
+    summary: '检测到整车研发链路加密套件变更，已触发人工复核。',
   },
   {
     id: 'security-event-2',
@@ -32,7 +32,7 @@ export const securityEvents: SecurityEvent[] = [
     type: '异常下载峰值',
     result: '已告警',
     riskLevel: 'medium',
-    summary: '员工主数据下载量短时间升高，已记录审计日志。',
+    summary: '道路测试数据下载量短时间升高，已记录审计日志。',
   },
   {
     id: 'security-event-3',
@@ -42,7 +42,7 @@ export const securityEvents: SecurityEvent[] = [
     type: '接口重试异常',
     result: '已恢复',
     riskLevel: 'low',
-    summary: '客服链路出现短时重试峰值，系统已自动恢复。',
+    summary: '智能驾驶研发链路出现短时重试峰值，系统已自动恢复。',
   },
   {
     id: 'security-event-4',
@@ -52,7 +52,7 @@ export const securityEvents: SecurityEvent[] = [
     type: '访问控制策略变更',
     result: '待复核',
     riskLevel: 'high',
-    summary: '临床协作平台角色权限调整，需要补充审批留痕。',
+    summary: '车联网运行平台角色权限调整，需要补充审批留痕。',
   },
   {
     id: 'security-event-5',
@@ -62,7 +62,7 @@ export const securityEvents: SecurityEvent[] = [
     type: '节点吞吐下降',
     result: '监控中',
     riskLevel: 'medium',
-    summary: '工业日志出口链路吞吐下降，已加入趋势跟踪。',
+    summary: 'OTA 升级日志链路吞吐下降，已加入趋势跟踪。',
   },
 ];
 

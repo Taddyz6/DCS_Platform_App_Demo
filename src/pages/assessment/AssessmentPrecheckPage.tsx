@@ -100,7 +100,7 @@ export function AssessmentPrecheckPage() {
               >
                 <Input.TextArea
                   rows={4}
-                  placeholder="例如：用于集团研发协同、客户服务、全球运维或境外合作分析。"
+                  placeholder="例如：用于整车研发协同、道路测试分析、OTA 全球运维或供应链质量改进。"
                 />
               </Form.Item>
             </Col>
